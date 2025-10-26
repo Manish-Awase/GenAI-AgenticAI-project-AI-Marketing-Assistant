@@ -1,0 +1,100 @@
+market_research:
+  description: >
+    Conduct market research to identify trends, opportunities, and challenges in the industry. Focus on understanding clients needs, competitor strategies, and market dynamics to inform marketing decisions.
+    <Profession>{Profession}</Profession>
+    <Role Description>{Role_description}</Role Description>
+    <Target Audience>{target_audience}</Target Audience>
+    
+    Current date: {current_date}
+
+  expected_output: >
+    A comprehensive market research report that includes:
+    - Analysis of market trends and opportunities
+    - Competitor analysis
+    - Clients insights and needs
+    - Recommendations for marketing strategies
+
+prepare_marketing_strategy:
+  description: >
+    Develop a marketing strategy that aligns with the company's goals and objectives. The strategy should include target audience segmentation, positioning, messaging, and marketing channels.
+    <Profession>{Profession}</Profession>
+    <Role Description>{Role_description}</Role Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+    Refer to the market research report for insights and building the strategy.
+
+  expected_output: >
+    A detailed marketing strategy document that includes:
+    - Target audience segmentation
+    - Required time
+    - Recommended marketing channels
+    - Plan of action for the week containing 1 blogs to write,  and 3 social media posts to create
+    - Key performance indicators (KPIs) to measure success
+    Store the marketing strategy in 'resources/drafts/marketing_strategy.md'.
+
+create_content_calendar:
+  description: >
+    Create a content calendar that outlines the topics, formats, and publishing schedule for the next one week. The calendar should align with the marketing strategy and include key themes and campaigns.
+    <Profession>{Profession}</Profession>
+    <Role Description>{Role_description}</Role Description>
+    <Target Audience>{target_audience}</Target Audience>
+
+    Current date: {current_date}
+
+  expected_output: >
+    A content calendar that includes:
+    - Topics and formats for each piece of content specified in the marketing strategy
+    - Publishing schedule
+    - Key themes and campaigns
+    Store the content calendar in 'resources/drafts/content_calendar.md'.
+
+prepare_post_drafts:
+  description: >
+    Prepare drafts for social media posts and email campaigns based on the content calendar. Ensure that the drafts are engaging, aligned with the brand voice, and optimized for each platform.
+    <Profession>{Profession}</Profession>
+    <Role Description>{Role_description}</Role Description>
+    <Target Audience>{target_audience}</Target Audience>
+    
+    Current date: {current_date}
+
+  expected_output: >
+    Drafts for:
+    - Social media posts: LinkedIn, Twitter, Instagram,upwork
+    - Email campaigns
+    Each draft should be ready for review and feedback. Save the drafts in 'resources/drafts/posts/' folder in markdown format.
+
+
+content_research_for_blogs:
+  description: >
+    Conduct research for blog topics that align with the content calendar and marketing strategy. The research should include keyword analysis, competitor blogs, and industry trends.
+    <Profession>{Profession}</Profession>
+    <Role Description>{Role_description}</Role Description>
+    <Target Audience>{target_audience}</Target Audience>
+    
+    Current date: {current_date}
+
+  expected_output: >
+    A research report that includes:
+    - Keyword analysis
+    - Competitor blog insights
+    - Industry trends
+    - Suggested blog topics and outlines
+
+draft_blogs:
+  description: >
+    Draft blogs based on the research report and content calendar. Each blog should be well-structured, engaging, and optimized for SEO.
+    <Profession>{Profession}</Profession>
+    <Role Description>{Role_description}</Role Description>
+    <Target Audience>{target_audience}</Target Audience>
+    
+    Current date: {current_date}
+
+  expected_output: >
+    Drafts for blogs that include:
+    - Engaging introductions
+    - Well-structured content
+    - SEO optimization
+    - Ready for review and feedback
+    Each draft should be ready for review and saved in 'resources/drafts/blogs/' folder in markdown format.
+
