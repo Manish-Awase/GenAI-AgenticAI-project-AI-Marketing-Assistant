@@ -66,12 +66,11 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ````
-or run this from the root folder of your project:
+OR<br>
+
+run this from the root folder of your project:
     
 ```bash
 crewai flow kickoff 
 ```
 
-
-
-T
