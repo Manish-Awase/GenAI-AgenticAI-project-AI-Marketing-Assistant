@@ -46,10 +46,9 @@ This system reduces manual overhead, improves strategic alignment, and accelerat
 
 ## 🧪 Getting Started
 
-```bash
 # Clone the repo
-git clone 
-cd agentic-marketing-crew
+```bash
+git clone <path>
 ````
  Ensure you have Python **>=3.10 <=3.13** installed on your system to install CrewAI.
 # Install dependencies
